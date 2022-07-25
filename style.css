@@ -1,0 +1,180 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  font-family: 'Kumbh Sans', sans-serif;
+  
+}
+
+
+                       /*CONTAINER*/
+
+.container{
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+}
+
+
+                  /* RIGHT-SECTION */
+.right-section{
+  background-color: white; 
+  border-radius: 0px 10px 10px 0px;
+  font-size: 13px;
+}
+
+
+                  /* LEFT-SECTION */
+.left-section{
+/*   background-image: url(../images/unsplash.jpg); */
+/*   background: red; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+/*   border-radius: 10px 0px 0px 10px; */
+}
+
+img{
+   height: 35.3em;
+   border-radius: 10px 0px 0px 10px;
+   width: 452px;
+}
+
+
+
+
+.right-section{
+  height: 565px;
+  width: 452px;
+  margin-bottom: 4px;
+  
+}
+
+
+                  /* SPAN  */
+span{
+}
+
+h1{}
+
+
+                  /* REGISTER */
+/* .register{
+  text-align: center;
+  margin-top: 50px;
+} */
+
+
+                  /* CONTENT  */
+.content{
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+
+                /*  HAVE AN ACCOUNT */
+.have-an-account{
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+                /* NAME  */
+#form{
+  margin-top: 20px;
+  display
+}
+
+
+input{
+/*   border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden; */
+  border: hidden;
+  outline: none;
+  margin-left: 10px;
+}
+
+hr{
+  margin-top: 10px;
+  width: 300px;
+}
+
+.accept{
+  margin-left: -14px;
+}
+
+.btn{
+    margin-left: 227px;
+    border-radius: 17px;
+    margin-top: 30px;
+    padding: 7px;
+    background-color: yellow;
+    width: 78px;
+    border: none;
+}
+
+
+                  /* SOCIAL ICONS  */
+.social-icons{
+  display: flex;
+}
+
+#socials{
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  width: 80px;
+  padding: 11px;
+  border-radius: 39px;
+}
+
+h2{
+  font-size: 10px;
+}
+
+.google{
+  background: red;
+}
+
+.fb{
+  background: blue;
+}
+
+.twitter{
+  background: blue;
+}
+
+.social-media{
+    position: relative;
+    bottom: 2px;
+    left: 8px;
+}
+
+nav{
+  display: flex;
+  position: absolute;
+  right: 62px;
+  top: 19px;
+}
+
+/* h3{
+  text-align
+} */
+
+.login-btn{
+  margin-left: 10px;
+  background: whitesmoke;
+  border: none;
+  padding: 7px;
+  border-radius: 14px;
+}
