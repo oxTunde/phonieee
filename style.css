@@ -62,10 +62,7 @@ img{
 
 
                   /* SPAN  */
-span{
-}
 
-h1{}
 
 
                   /* REGISTER */
@@ -91,14 +88,10 @@ h1{}
                 /* NAME  */
 #form{
   margin-top: 20px;
-  display
 }
 
 
 input{
-/*   border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden; */
   border: hidden;
   outline: none;
   margin-left: 10px;
@@ -170,11 +163,59 @@ nav{
 /* h3{
   text-align
 } */
-
+/*     LOPGIN BUTTON         */
 .login-btn{
   margin-left: 10px;
   background: whitesmoke;
   border: none;
-  padding: 7px;
-  border-radius: 14px;
+  padding: 6px;
+  border-radius: 1px;
+  width: 88px;
+}
+
+.login-btn::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.login-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.login-btn::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+
+.logo{
+  width: 160px;
+  height: 103px;
+/*   border-radius: 10px; */
+  background-image: url('LOGO.png');
+  position: relative;
+  top: 143px;
+  left: 605px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started{
+  position: relative;
+  top: 155px;
+  left: 519px;
+  font-size: 25px;
 }
