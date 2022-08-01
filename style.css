@@ -219,3 +219,13 @@ nav{
   left: 519px;
   font-size: 25px;
 }
+
+
+ #country{
+  border: 1px solid red;
+}
+
+#country-flag{
+
+  border: 1px solid yellow;
+}
